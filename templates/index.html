@@ -5,38 +5,39 @@
 	<meta charset="utf-8">
 	<title></title>
 </head>
-<body>
-<h1><div style="text-align:center"><font color='blue'>PREDICCION USANDO ALGORITMOS DE CLASIFICCION</font></div></h1>
+<body style="background-color:#8eaaca;">
+<h1><div style="text-align:center"><font color='white'>PREDICCION USANDO ALGORITMOS DE CLASIFICACIÓN</font>
+<br> <img src="logoAJ.png" width="300" height="250"/>
+</div></h1>
 <hr>
-</br>
-<h2><div style="text-align:center;">ingresa los valores</div></h2>
+
+<h2 ><div style="text-align:center;"><font color='white'>INGRESO DE DATOS</div></font></h2>
 </br>
 
-
-<div class="container" style="text-align:center">
+<center><div class="container" style="text-align:center">
 	<div class='row'>
 		<div class='col-xs-6 col-xs-offset-4'>
 			<form method="POST" action="/prediccion">
 				<div class ='form-group'>
 					<label for="var_1">
-<p class="font-weight-bold">Semestre</p>
+<p class="font-weight-bold"><font color='white'>Semestre Cursado</font></p>
 </label>
 <input type='text' name="var_1">
 
 </div>
 
-<div class='form-group'>
-<label for="var_2">
-<p class="font-weight-bold">Promedio</p>
-</label>
-<input type='text' name="var_2">
+	<div class='form-group'>
+		<label for="var_2">
+			<p class="font-weight-bold"><font color='white'>Promedio de Notas</font></p>
+		</label>
+		<input type='text' name="var_2">
+	</div>
+</center>
+<center><input class="btn btn-primary" type='submit' value='Enviar Informacion'></center>
 
-</div>
-<input class="btn btn-primary" type='submit' value='Enviar'>
 </form>
 </div>
 </div>
-
 </div>
 </body>
 </html>
